@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1d1d; 
+    color: white; 
+    margin: 0;
+}
+
+
+#tree1 {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #00ff00; /* Tree color - green */
+    text-align: center;
+    white-space: pre;
+    line-height: 1.2;
+}
+
+
+#tree1::before {
+    content: "★"; 
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gold;
+    margin-bottom: -0.5rem;
+}
+
+
+
+
+.h2{
+    width: 50%;
+    height: 20px;
+    font-size: 50px;
+}
